@@ -7,8 +7,8 @@
 		</a>
 		<div class="container">
 			<div class="sixteen columns">
-				<p>U.S. Army Geospatial Center</p>
-				<p><small>Warfighter Support Directorate</small></p>
+				<p class="cls_text_search">U.S. Army Geospatial Center</p>
+				<p><small class="cls_text_search">Warfighter Support Directorate</small></p>
 			</div>
 		</div>
 	</div>
@@ -23,12 +23,12 @@
 							<div class="footer-description">
 								<div class="row">
 									<div class="col-md-6 col-lg-12">
-										<div class="footer-title">Our Mission</div>
-										<p>The mission of the U.S. Army Corps of Engineers is to deliver vital public and military engineering services; partnering in peace and war to strengthen our nation's security, energize the economy and reduce risks from disasters.</p>
+										<div class="footer-title cls_text_search">Our Mission</div>
+										<p class="cls_text_search">The mission of the U.S. Army Corps of Engineers is to deliver vital public and military engineering services; partnering in peace and war to strengthen our nation's security, energize the economy and reduce risks from disasters.</p>
 									</div>
 									<div class="col-md-6 col-lg-12">
-										<div class="footer-title">About the Army Geospatial Center Website Website</div>
-										<p>The official public website of the Army Geospatial Center. For website corrections, write to agc.publicaffairs@usace.army.mil</p>
+										<div class="footer-title cls_text_search">About the Army Geospatial Center Website Website</div>
+										<p class="cls_text_search">The official public website of the Army Geospatial Center. For website corrections, write to agc.publicaffairs@usace.army.mil</p>
 									</div>
 								</div>
 							</div>
@@ -36,13 +36,75 @@
 						<div class="col-8 col-md-8 col-lg-4">
 							<div class="footer-links">
 								<div class="social-icons">
-									<ul class=""><li class=""><a href="https://www.facebook.com/USACEAGC" title="Facebook" target="_blank" rel="noopener"><span class="social-icon fab fa-facebook social-link-45"></span></a></li><li class=""><a href="https://twitter.com/USACEHQ" title="Twitter" target="_blank" rel="noopener"><span class="social-icon fab fa-twitter social-link-104"></span></a></li><li class=""><a href="http://www.youtube.com/user/ArmyGeospatialCenter" title="YouTube" target="_blank" rel="noopener"><span class="social-icon fab fa-youtube-square social-link-163"></span></a></li><li class=""><a href="https://www.flickr.com/photos/usacehq" title="Flickr" target="_blank" rel="noopener"><span class="social-icon fab fa-flickr social-link-222"></span></a></li></ul>
+									<ul class="">
+										<li class=""><a href="https://www.facebook.com/USACEAGC" title="Facebook" target="_blank" rel="noopener"><span class="social-icon fab fa-facebook social-link-45"></span></a></li><li class=""><a href="https://twitter.com/USACEHQ" title="Twitter" target="_blank" rel="noopener"><span class="social-icon fab fa-twitter social-link-104"></span></a></li><li class=""><a href="http://www.youtube.com/user/ArmyGeospatialCenter" title="YouTube" target="_blank" rel="noopener"><span class="social-icon fab fa-youtube-square social-link-163"></span></a></li><li class=""><a href="https://www.flickr.com/photos/usacehq" title="Flickr" target="_blank" rel="noopener"><span class="social-icon fab fa-flickr social-link-222"></span></a></li></ul>
 	
 	
 								</div>
 								<div class="footer-title"></div>
 								<div class="footer-text-links link-rows">
-									<ul class=""><li class=""><a href="https://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx" title="Accessibility" target="_blank" rel="noopener"><span class="text text-link-294">Accessibility</span></a></li><li class=""><a href="/Contact.aspx" title="Contact Us"><span class="text text-link-356">Contact Us</span></a></li><li class=""><a href="https://www.usace.army.mil/InformationQualityAct.aspx" title="U.S. Army Corps of Engineers Information Quality " target="_blank" rel="noopener"><span class="text text-link-480">Quality Facts</span></a></li><li class=""><a href="https://www.usace.army.mil/LinkDisclaimer.aspx" title="Link Disclaimer" target="_blank" rel="noopener"><span class="text text-link-542">Link Disclaimer</span></a></li><li class=""><a href="https://prhome.defense.gov/nofear" title="No Fear Act" target="_blank" rel="noopener"><span class="text text-link-604">No Fear Act</span></a></li><li class=""><a href="https://www.usace.army.mil/PrivacyandSecurity.aspx" title="Privacy &amp; Security" target="_blank" rel="noopener"><span class="text text-link-666">Privacy &amp; Security</span></a></li><li class=""><a href="/SiteMap.aspx" title="Site Map"><span class="text text-link-787">Site Map</span></a></li><li class=""><a href="https://www.usa.gov/" title="USA.gov" target="_blank" rel="noopener"><span class="text text-link-849">USA.gov</span></a></li><li class=""><a href="/Business-With-Us/Small-Business-Office/" title="U.S. Army Corps of Engineers, Army Geospatial Center Small Business Support"><span class="text text-link-1302">Small Business</span></a></li><li class=""><a href="http://www.esd.whs.mil/DD/plainlanguage" title="Plain Language" target="_blank" rel="noopener"><span class="text text-link-1303">Plain Language</span></a></li><li class=""><a href="https://open.defense.gov/" title="Honest Leadership and Open Government Act" target="_blank" rel="noopener"><span class="text text-link-1304">Open Government</span></a></li><li class=""><a href="https://www.usace.army.mil/Careers/EEO/" title="U.S. Army Corps of Engineers Equal Employment &amp; The Army's Sexual Harassment/Assault Response and Prevention (SHARP) Program " target="_blank" rel="noopener"><span class="text text-link-1305">EEO &amp; SHARP</span></a></li></ul>
+									<ul class="">
+										<li class="">
+											<a href="https://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx" title="Accessibility" target="_blank" rel="noopener">
+												<span class="text text-link-294 cls_text_search">Accessibility</span>
+											</a>
+										</li>
+										<li class="">
+											<a href="/Contact.aspx" title="Contact Us">
+												<span class="text text-link-356 cls_text_search">Contact Us</span>
+											</a>
+										</li>
+										<li class="">
+											<a href="https://www.usace.army.mil/InformationQualityAct.aspx" title="U.S. Army Corps of Engineers Information Quality " target="_blank" rel="noopener">
+												<span class="text text-link-480 cls_text_search">Quality Facts</span>
+											</a>
+										</li>
+										<li class="">
+											<a href="https://www.usace.army.mil/LinkDisclaimer.aspx" title="Link Disclaimer" target="_blank" rel="noopener">
+												<span class="text text-link-542 cls_text_search">Link Disclaimer</span>
+											</a>
+										</li>
+										<li class="">
+											<a href="https://prhome.defense.gov/nofear" title="No Fear Act" target="_blank" rel="noopener">
+												<span class="text text-link-604 cls_text_search">No Fear Act</span>
+											</a>
+										</li>
+										<li class="">
+											<a href="https://www.usace.army.mil/PrivacyandSecurity.aspx" title="Privacy &amp; Security" target="_blank" rel="noopener">
+												<span class="text text-link-666 cls_text_search">Privacy &amp; Security</span>
+											</a>
+										</li>
+										<li class="">
+											<a href="/SiteMap.aspx" title="Site Map">
+												<span class="text text-link-787 cls_text_search">Site Map</span>
+											</a>
+										</li>
+										<li class="">
+											<a href="https://www.usa.gov/" title="USA.gov" target="_blank" rel="noopener">
+												<span class="text text-link-849 cls_text_search">USA.gov</span>
+											</a>
+										</li>
+										<li class="">
+											<a href="/Business-With-Us/Small-Business-Office/" title="U.S. Army Corps of Engineers, Army Geospatial Center Small Business Support">
+												<span class="text text-link-1302 cls_text_search">Small Business</span>
+											</a>
+										</li>
+										<li class="">
+											<a href="http://www.esd.whs.mil/DD/plainlanguage" title="Plain Language" target="_blank" rel="noopener">
+												<span class="text text-link-1303 cls_text_search">Plain Language</span>
+											</a>
+										</li>
+										<li class="">
+											<a href="https://open.defense.gov/" title="Honest Leadership and Open Government Act" target="_blank" rel="noopener">
+												<span class="text text-link-1304 cls_text_search">Open Government</span>
+											</a>
+										</li>
+										<li class="">
+											<a href="https://www.usace.army.mil/Careers/EEO/" title="U.S. Army Corps of Engineers Equal Employment &amp; The Army's Sexual Harassment/Assault Response and Prevention (SHARP) Program " target="_blank" rel="noopener">
+												<span class="text text-link-1305 cls_text_search">EEO &amp; SHARP</span>
+											</a>
+										</li>
+									</ul>
 	
 	
 								</div>
@@ -52,7 +114,23 @@
 							<div class="footer-text-links offsite-links">
 								<a href="https://www.army.mil" target="_blank" rel="noopener">
 									<img src="https://www.agc.army.mil/Portals/_default/Skins/USACETheme/Assets/images/army-logo-color.svg"></a>
-								<ul class=""><li class=""><a href="https://www.usace.army.mil/Engineer-Inspector-General/" title="U.S. Army Corps of Engineers Inspector General" target="_blank" rel="noopener"><span class="text text-link-1300">IG</span></a></li><li class=""><a href="https://www.usace.army.mil/FOIA.aspx" title="U.S. Army Corps of Engineers Freedom of Information" target="_blank" rel="noopener"><span class="text text-link-1301">FOIA</span></a></li><li class=""><a href="https://www.inscom.army.mil/isalute/" title="iSALUTE" target="_blank" rel="noopener"><span class="text text-link-973">iSALUTE</span></a></li></ul>
+								<ul class="">
+									<li class="">
+										<a href="https://www.usace.army.mil/Engineer-Inspector-General/" title="U.S. Army Corps of Engineers Inspector General" target="_blank" rel="noopener">
+											<span class="text text-link-1300 cls_text_search">IG</span>
+										</a>
+									</li>
+									<li class="">
+										<a href="https://www.usace.army.mil/FOIA.aspx" title="U.S. Army Corps of Engineers Freedom of Information" target="_blank" rel="noopener">
+											<span class="text text-link-1301 cls_text_search">FOIA</span>
+										</a>
+									</li>
+									<li class="">
+										<a href="https://www.inscom.army.mil/isalute/" title="iSALUTE" target="_blank" rel="noopener">
+											<span class="text text-link-973 cls_text_search">iSALUTE</span>
+										</a>
+									</li>
+								</ul>
 	
 	
 							</div>
@@ -69,6 +147,53 @@
 	<script type="text/javascript" src="js/modernizr.custom.js"></script>
 	<script type="text/javascript" src="js/royal_preloader.min.js"></script>
 	<script type="text/javascript">
+
+		function ShowsubMenus(li_id){
+			if($('#'+li_id).find('ul').is(':visible')){
+				$('#'+li_id).find('ul').hide();
+				$('#'+li_id).find('i').addClass('fa-angle-down');
+				$('#'+li_id).find('i').removeClass('fa-angle-up');
+				$('.fsmenu--list-element').each(function(){
+					$(this).show();	
+				});	
+			} else {
+				$('#'+li_id).find('ul').show();
+				$('#'+li_id).find('i').removeClass('fa-angle-down');
+				$('#'+li_id).find('i').addClass('fa-angle-up');
+				$('.fsmenu--list-element').each(function(){
+					if($(this).attr('id')!=li_id){
+						$(this).hide();
+					}	
+				});	
+			}
+		}
+
+
+
+		function toRegExp(text) {
+			return new RegExp(text, 'g');
+		}
+
+		function toSpan(text, className) {
+			return '<span class="' + className + '">' + text + '</span>';
+		}
+
+		const input = document.querySelector('.cls_search');
+
+		input.addEventListener('input', e => {
+			let string = e.target.value;
+			string = $.trim(string);
+
+			if (string.length > 0) {
+				$('.cls_text_search').each(function(){
+					$(this).html($(this).text().toLowerCase().replace(toRegExp(string.toLowerCase()), toSpan(string, 'highlight')));
+				});
+			}else {
+				$('.cls_text_search').each(function(){
+					$(this).html($(this).text().replace(toRegExp(string), string));
+				});
+			}
+		});
 	
 		var speed1 = Number('<cfoutput>#qUserStory.speed1#</cfoutput>')*1000;
 		var speed2 = Number('<cfoutput>#qUserStory.speed2#</cfoutput>')*1000;
@@ -316,6 +441,15 @@
 		{
 			$("#a").css("display", "block");
 			$("#b").css("display", "block");	
+		}
+
+		function showSearchBar()
+		{
+			if($('.cls_form').is(':visible')){
+				$('.cls_form').hide();
+			} else {
+				$('.cls_form').show();
+			}
 		}
 	</script>
 <!--- 	<script type='text/javascript' src='js/jquery.min.js'></script> --->
