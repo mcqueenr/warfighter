@@ -37,6 +37,11 @@
 	<cfset title &= ' | Foundation Data' />
 </cfif>
 
+<cfset searchClick = '' />
+<cfif fileName eq 'index.cfm'>
+	<cfset searchClick = 'onclick="showSearchBar()"' />
+</cfif>
+
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <!--<![endif]-->
@@ -68,7 +73,7 @@
 	<!--SVG Animation Styles-->
 <!--- 	<link rel="stylesheet" href="css/retina.css" /> --->
 	<link rel="stylesheet" href="chosen/chosen.css">
-
+	<link rel="stylesheet" href="css/search.css" />
 
 
 	<!-- Favicons
@@ -293,6 +298,12 @@
   font-size: 44.44px
 }
 
+.highlight { 
+ 	/*background-color: #FBC300;*/
+	 background-color: yellow;
+	 color:red; 
+}
+
 </style>
 
 </head>
@@ -438,9 +449,9 @@
 						</a>
 					</li>
 					<li class="nav-item" data-menuanchor="home">
-						<a href="<cfoutput>#redirectURL#</cfoutput>#home">
+						<a href="javascript:void(0);" <cfoutput>#searchClick#</cfoutput>>
 							<i class="icon ion-android-search"></i>
-							<span class="txt">Home</span>
+							<span class="txt">Search</span>
 						</a>
 					</li>
 					<li class="nav-item" data-menuanchor="home">

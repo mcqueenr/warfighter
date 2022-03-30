@@ -7,6 +7,11 @@
 	<div id="home">
 		
 		<div class="tp-banner-container">
+			<form action="" class="cls_form" style="display:none">
+				<input type="text" class="cls_search" placeholder="Search" required>
+				<i class="fa fa-search"></i>
+				<a href="javascript:void(0)" id="clear-btn">Clear</a>
+			</form>
 			<div class="tp-banner">
 				<ul>
 					<!--li data-transition="fade" data-slotamount="1" data-masterspeed="400">
@@ -23,8 +28,8 @@
 						<div class="just_pattern"></div>
 						<div class="caption big-text lft ltt" data-x="center" data-y="center" data-speed="500"
 							data-start="500" data-easing="easeOutExpo">
-							<div class="big-text"><span>US Army Corps of Engineers</span></div>
-							<div class="caption-text">Deliver vital engineering solutions, in collaboration with our partners,<br />to secure our Nation, energize our economy, and reduce disaster risk</div>
+							<div class="big-text"><span class="cls_text_search">US Army Corps of Engineers</span></div>
+							<div class="caption-text cls_text_search">Deliver vital engineering solutions, in collaboration with our partners,<br />to secure our Nation, energize our economy, and reduce disaster risk</div>
 						</div>
 					</li>
 					<li data-transition="fade" data-slotamount="1" data-masterspeed="400">
@@ -32,8 +37,8 @@
 						<div class="just_pattern"></div>
 						<div class="caption big-text lft ltt" data-x="center" data-y="center" data-speed="500"
 							data-start="500" data-easing="easeOutExpo">
-							<div class="big-text"><span>Army Geospatial Center Mission</span></div>
-							<div class="caption-text">The U.S. Army Geospatial Center (AGC) collects, analyses, manages,<br />
+							<div class="big-text"><span class="cls_text_search">Army Geospatial Center Mission</span></div>
+							<div class="caption-text cls_text_search">The U.S. Army Geospatial Center (AGC) collects, analyses, manages,<br />
 								and delivers geospatial data and products, provides acquisition support,<br />
 								and develops innovative solutions to solve the toughest geospatial challenges.
 							</div>
@@ -44,8 +49,8 @@
 						<div class="just_pattern"></div>
 						<div class="caption big-text lft ltt" data-x="center" data-y="center" data-speed="500"
 							data-start="500" data-easing="easeOutExpo">
-							<div class="big-text"><span>Army Geospatial Center Vision</span></div>
-							<div class="caption-text">Be the choice provider for trusted and innovative<br />
+							<div class="big-text"><span class="cls_text_search">Army Geospatial Center Vision</span></div>
+							<div class="caption-text cls_text_search">Be the choice provider for trusted and innovative<br />
 								geospatial information, services, and technologies for the Army and the Nation.
 							</div>
 						</div>
@@ -55,8 +60,8 @@
 						<div class="just_pattern"></div>
 						<div class="caption big-text lft ltt" data-x="center" data-y="center" data-speed="500"
 							data-start="500" data-easing="easeOutExpo">
-							<div class="big-text"><span>Army Geospatial Enterprise</span></div>
-								<div class="caption-text">The AGE is an integrated system of technologies, standards, data,<br />and processes that delivers a standard and shareable geospatial foundation,<br /> which facilitates a Common Operational Picture (COP) to the Warfighter at all echelons.<br /><a style="color:yellow;" target="_blank" href="https://cac.agc.army.mil/AGE/index.cfm">https://cac.agc.army.mil/AGE/index.cfm</a>
+							<div class="big-text"><span class="cls_text_search">Army Geospatial Enterprise</span></div>
+								<div class="caption-text cls_text_search">The AGE is an integrated system of technologies, standards, data,<br />and processes that delivers a standard and shareable geospatial foundation,<br /> which facilitates a Common Operational Picture (COP) to the Warfighter at all echelons.<br /><a style="color:yellow;" target="_blank" href="https://cac.agc.army.mil/AGE/index.cfm">https://cac.agc.army.mil/AGE/index.cfm</a>
 								</div>
 						</div>
 					</li>
@@ -65,8 +70,8 @@
 						<div class="just_pattern"></div>
 						<div class="caption big-text lft ltt" data-x="center" data-y="center" data-speed="500"
 							data-start="500" data-easing="easeOutExpo">
-							<div class="big-text"><span>Product Search</span></div>
-							<div class="caption-text"><a style="color:yellow;" href="#ProductsSearchCatalog">Go To Map</a></div>
+							<div class="big-text"><span class="cls_text_search">Product Search</span></div>
+							<div class="caption-text"><a style="color:yellow;" href="#ProductsSearchCatalog" class="cls_text_search">Go To Map</a></div>
 						</div>
 					</li>
 					<!--li data-transition="fade" data-slotamount="1" data-masterspeed="400">
@@ -115,9 +120,9 @@
 		<div class="container">
 			<div class="sixteen columns" data-scrollreveal="enter top and move 150px over 1s">
 				<div class="header-text">
-					<div class="header-shadow-text">Mission Statement</div>
-					<h1>Mission Statement</h1>
-					<p>The U.S. Army Geospatial Center (AGC) collects, analyses, manages,<br />
+					<div class="header-shadow-text cls_text_search">Mission Statement</div>
+					<h1 class="cls_text_search">Mission Statement</h1>
+					<p class="cls_text_search">The U.S. Army Geospatial Center (AGC) collects, analyses, manages,<br />
 						and delivers geospatial data and products, provides acquisition support,<br /> 
 						and develops innovative solutions to solve the toughest geospatial challenges.</p>
 				</div>
@@ -171,7 +176,7 @@
 		
 								<a href="#href#" #onClick# style="padding-left: 8px;padding-top: 18px;">
 									<img src="#imageSrc#" width="20px">
-									<h5 style="padding-left: 10px !important;">#qParentMenu.menuName#</h5> &nbsp;
+									<h5 style="padding-left: 10px !important;" class="cls_text_search">#qParentMenu.menuName#</h5> &nbsp;
 									<i class="fas fa-angle-double-down" style="font-size: 20px;" id="fa_arrow"></i>
 								</a>
 		
@@ -185,7 +190,7 @@
 		
 									<div id="myLinks">
 										<cfloop query="#qChildMenu#">
-											<a class="frame" href="#qChildMenu.menuHref#" target="_blank">#qChildMenu.menuName#</a>	
+											<a class="frame cls_text_search" href="#qChildMenu.menuHref#" target="_blank">#qChildMenu.menuName#</a>	
 										</cfloop>
 									</div>
 		
@@ -193,7 +198,7 @@
 
 							</div>
 						</div>	
-						<p>#one_third_para#</p>
+						<p class="cls_text_search">#one_third_para#</p>
 					</div>
 				</cfoutput>
 			</div>
@@ -204,8 +209,8 @@
 			<div class="container">
 				<div class="sixteen columns" data-scrollreveal="enter top and move 150px over 1s">
 					<div class="header-text">
-						<div class="header-shadow-text" style="font-size: 56px;">PRODUCTS SEARCH CATALOG</div>
-						<h1>PRODUCTS SEARCH CATALOG</h1>
+						<div class="header-shadow-text cls_text_search"  style="font-size: 56px;">PRODUCTS SEARCH CATALOG</div>
+						<h1 class="cls_text_search">PRODUCTS SEARCH CATALOG</h1>
 					</div>
 				</div>
 			</div>
@@ -233,8 +238,8 @@
 			<ol class="slides">
 				<li class="current" onclick="openClick('fly-thrus.cfm');" style="cursor:pointer">
 					<div class="description">
-						<h4 style="text-decoration: underline;">FLY-THRUS (UNDER DEVELOPMENT)</h4>
-						<p>AGC produces customer requested terrain fly-thrus using Skyline TerraExplorer software.
+						<h4 style="text-decoration: underline;" class="cls_text_search">FLY-THRUS (UNDER DEVELOPMENT)</h4>
+						<p class="cls_text_search">AGC produces customer requested terrain fly-thrus using Skyline TerraExplorer software.
 							Fly-thrus are designed to provide terrain visualization using NGA and AGC datasets and can
 							be used on Army Program of Record systems that have Skyline TerraExplorer software
 							installed.</p>
@@ -247,8 +252,8 @@
 				</li>
 				<li onclick="openClick('geoglobe.cfm');" style="cursor:pointer">
 					<div class="description">
-						<h4 style="text-decoration: underline;">GEOGLOBE</h4>
-						<p>A 3D based visualization and dissemination tool designed to make the discovery and
+						<h4 style="text-decoration: underline;" class="cls_text_search">GEOGLOBE</h4>
+						<p class="cls_text_search">A 3D based visualization and dissemination tool designed to make the discovery and
 							exploitation of high resolution data more intuitive and productive within an organization's
 							user community. AGC's GeoGlobe is based on Skyline Software's Skyline Globe suite of
 							products. This enterprise software allows users to access AGC created 3D datasets on their
@@ -263,8 +268,8 @@
 				</li>
 				<li onclick="openClick('gts.cfm');" style="cursor:pointer">
 					<div class="description">
-						<h4 style="text-decoration: underline;">Geospatial Technical Support (GTS)</h4>
-						<p>On-call Technical Geospatial Support to help with the integration and implementation of
+						<h4 style="text-decoration: underline;" class="cls_text_search">Geospatial Technical Support (GTS)</h4>
+						<p class="cls_text_search">On-call Technical Geospatial Support to help with the integration and implementation of
 							geospatial resources at all echelons. Support can be provided at AGC or if needed deploys
 							mobile support teams to units to train soldiers on the latest tools, techniques and
 							procedures for data generation and content management.</p>
@@ -275,8 +280,8 @@
 				</li>
 				<li onclick="openClick('rbs.cfm');" style="cursor:pointer">
 					<div class="description">
-						<h4 style="text-decoration: underline;">Reach Back Support</h4>
-						<p>Request for Information (RFI) reach back support for units in the field. Relies heavily on
+						<h4 style="text-decoration: underline;" class="cls_text_search">Reach Back Support</h4>
+						<p class="cls_text_search">Request for Information (RFI) reach back support for units in the field. Relies heavily on
 							in-house expertise of Civilian Analysts, 125D, 
 							and 12Y&acute;s. Exercise support to rotational and
 							national level exercises. Mission rehearsal, analytical support, AAR tools. Supports
@@ -297,9 +302,9 @@
 		<div class="container">
 			<div class="sixteen columns" data-scrollreveal="enter top and move 150px over 1s">
 				<div class="header-text">
-					<div class="header-shadow-text">MISSION AREAS</div>
-					<h1>MISSION AREAS</h1>
-					<p>Warfighter Support Directorate fills the geospatial requirement gap between the Army and NGA
+					<div class="header-shadow-text cls_text_search">MISSION AREAS</div>
+					<h1 class="cls_text_search">MISSION AREAS</h1>
+					<p class="cls_text_search">Warfighter Support Directorate fills the geospatial requirement gap between the Army and NGA
 						providing Geospatial Information & Services (GI&S) training, data and technical support to all
 						echelons.</p>
 				</div>
@@ -323,12 +328,12 @@
 			<div class="sixteen columns">
 				<div id="portfolio-filter">
 					<ul id="filter">
-						<li><a href="#" class="current" data-filter="*" title="" style="text-decoration:underline">Mission Areas</a></li>
-						<li><a href="#" data-filter=".data" title="" style="text-decoration:underline">Data</a></li>
-						<li><a href="#" data-filter=".imagery" title="" style="text-decoration:underline">Imagery</a></li>
-						<li><a href="#" data-filter=".products" title="" style="text-decoration:underline">Products</a></li>
-						<li><a href="#" data-filter=".services" title="" style="text-decoration:underline">Services</a></li>
-						<li><a href="#" data-filter=".support" title="" style="text-decoration:underline">Support</a></li>
+						<li><a href="#" class="current cls_text_search" data-filter="*" title="" style="text-decoration:underline">Mission Areas</a></li>
+						<li><a href="#" data-filter=".data" title="" style="text-decoration:underline" class="cls_text_search">Data</a></li>
+						<li><a href="#" data-filter=".imagery" title="" style="text-decoration:underline" class="cls_text_search">Imagery</a></li>
+						<li><a href="#" data-filter=".products" title="" style="text-decoration:underline" class="cls_text_search">Products</a></li>
+						<li><a href="#" data-filter=".services" title="" style="text-decoration:underline" class="cls_text_search">Services</a></li>
+						<li><a href="#" data-filter=".support" title="" style="text-decoration:underline" class="cls_text_search">Support</a></li>
 					</ul>
 				</div>
 			</div>
@@ -338,15 +343,15 @@
 				<a class="fancybox-effects-d" href="#divForm" title="">
 					<img src="images/gallery/hr3d.jpg?ver=1" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
-					<h4>HR3D</h4>
-					<button type="submit" class="send_message" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
+					<h4 class="cls_text_search">HR3D</h4>
+					<button type="submit" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
 						High Resolution 3D (HR3D)
 					</button>
 				</a>
 				
 				<div id="divForm" style="display:none" onclick="open_details('hr3d.cfm')">
-					<h4 class="mission-area-title" style="color:black">High Resolution 3D BuckEye</h4>
-					<p class="mission-area-text" style="text-align: justify;margin-left: 10px;">
+					<h4 class="mission-area-title cls_text_search" style="color:black">High Resolution 3D BuckEye</h4>
+					<p class="mission-area-text cls_text_search" style="text-align: justify;margin-left: 10px;">
 						The AGC HR3D BuckEye Program is a wide area mapping capability encompassing collection, storage
 						and dissemination of 2-10cm geo-registered, ortho-rectified color imagery, with 1m resolution
 						LiDAR elevation data, all Unclassified/FOUO releasable to Coalition and Host Nation partners.
@@ -355,7 +360,7 @@
 						systems. Army systems such as MMC, JBC-P, JCR, TAK/ATAK can ingest BuckEye data for tactical use
 						and advantage.
 					</p>
-					<p class="mission-area-text" style="text-align: justify;margin-left: 10px;">
+					<p class="mission-area-text cls_text_search" style="text-align: justify;margin-left: 10px;">
 						BuckEye platforms are manned fixed wing, unmanned and terrestrial. The BuckEye Program is
 						comprised of sensors, platforms, processing systems and dissemination capabilities such as Pixia
 						HiperDrives. Color imagery is processed to individual image frames with web-based indexes and
@@ -372,14 +377,14 @@
 				<a class="fancybox-effects-d" href="#divForm1" title="">
 					<img src="images/gallery/ERS.jpg?ver=1" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
-					<h4>ERS</h4>
-					<button type="button" class="send_message" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
+					<h4 class="cls_text_search">ERS</h4>
+					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
 						Engineering Route Studies
 					</button>
 				</a>
 				<div id="divForm1" style="display:none" onclick="open_details('ers.cfm')">
-					<h4 class="mission-area-title" style="color:black">Engineering Route Study</h4>
-					<p class="mission-area-text" style="text-align: justify;margin-left: 10px;">
+					<h4 class="mission-area-title cls_text_search" style="color:black">Engineering Route Study</h4>
+					<p class="mission-area-text cls_text_search" style="text-align: justify;margin-left: 10px;">
 						The ERS is a strategic/operational level Army planning product. It provides information on
 						transportation systems, terrain, and environmental data, at the country or regional level and
 						assist's the warfighter in planning a variety of missions including military operations,
@@ -400,14 +405,14 @@
 				<a class="fancybox-effects-d" href="#divForm2" title="">
 					<img src="images/gallery/HPA.jpg?ver=1" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
-					<h4>HPA</h4>
-					<button type="button" class="send_message" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
+					<h4 class="cls_text_search">HPA</h4>
+					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
 						Historical Photographic Analysis
 					</button>
 				</a>
 				<div id="divForm2" style="display:none" onclick="open_details('hpa.cfm')">
-					<h4 class="mission-area-title" style="color:black">Historical Photographic Analysis</h4>
-					<p class="mission-area-text" style="text-align: justify;margin-left: 10px;">
+					<h4 class="mission-area-title cls_text_search" style="color:black">Historical Photographic Analysis</h4>
+					<p class="mission-area-text cls_text_search" style="text-align: justify;margin-left: 10px;">
 						Historical Photographic Analysis (HPA) uses both historical photography and ancillary sources to
 						reveal potential environmental concerns on Department of Defense (DoD) properties. These
 						temporal or time-based studies provide clues for identifying Hazardous, Toxic and Radioactive
@@ -425,14 +430,14 @@
 				<a class="fancybox-effects-d" href="#divForm3" title="">
 					<img src="images/gallery/BET.jpg?ver=1" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
-					<h4>BET</h4>
-					<button type="button" class="send_message" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
+					<h4 class="cls_text_search">BET</h4>
+					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
 						Buckeye Enhance Team (BET)
 					</button>
 				</a>
 				<div id="divForm3" style="display:none" onclick="open_details('hr3d.cfm')">
-					<h4 class="mission-area-title" style="color:black">Buckeye Enhance Team</h4>
-					<p class="mission-area-text" style="text-align: justify;margin-left: 10px;">
+					<h4 class="mission-area-title cls_text_search" style="color:black">Buckeye Enhance Team</h4>
+					<p class="mission-area-text cls_text_search" style="text-align: justify;margin-left: 10px;">
 						The US Army Geospatial Center (AGC) Buckeye Extraction Team's (BET) purpose is to build datasets
 						of mobility related features that affect cross country movement, including terrain environment,
 						land cover, transportation networks, and obstructing features. The resulting product is the
@@ -441,22 +446,22 @@
 						of special interest to the DoD. The team generates two vector datasets for mission use and one
 						3D data package (under development):
 					</p>
-					<p class="mission-area-text" style="text-align: justify;margin-left: 10px;">
+					<p class="mission-area-text cls_text_search" style="text-align: justify;margin-left: 10px;">
 						-Rural Tactical Planner (RTP-C) - Tactical scale (1:24,000 - 200,000), locally focused product.
 						Carried out by contractor teams. Maps ground transportation, landcover environments, and
 						military points of interest in corridors between UTP analyses. The dataset is an intermediate
 						scale product between ERS and UTP datasets in regions of greater interest to the DoD.
 					</p>
-					<p class="mission-area-text" style="text-align: justify;margin-left: 10px;">
+					<p class="mission-area-text cls_text_search" style="text-align: justify;margin-left: 10px;">
 						-Buckeye Vector (RTP-BE) - Specialized/urban scale product (< 1:24,000). Extracted in areas
 							where BuckEye Airborne has flown, developed from high resolution Buckeye Imagery and LiDAR
 							to capture terrain, transportation networks, and vertical obstructions. </p> 
-					<p class="mission-area-text" style="text-align: justify;margin-left: 10px;">
+					<p class="mission-area-text cls_text_search" style="text-align: justify;margin-left: 10px;">
 							-Hi-Resolution 3D-Enhanced (HR3D-E) - a 3D model kit derived from RTP-BE vector products and
 							Buckeye Imagery/Sensor data. Vector data enhances the 3D HR3D capture by providing valuable
 							attribution to the 3D terrain models.
 					</p>
-					<p class="mission-area-text" style="text-align: justify;margin-left: 10px;">
+					<p class="mission-area-text cls_text_search" style="text-align: justify;margin-left: 10px;">
 						Both vector datasets are collected in and compliant with the Ground-Warfighter Geospatial Data
 						Model (GGDM) 3.0 schema, allowing it to be used in coordination with other AGC, NGA, and DoD
 						datasets.
@@ -470,14 +475,14 @@
 				<a class="fancybox-effects-d" href="#divForm4" title="">
 					<img src="images/gallery/UTP.png?ver=1" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
-					<h4>UTP</h4>
-					<button type="button" class="send_message" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
+					<h4 calss="cls_text_search">UTP</h4>
+					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
 						Urban Tactical Planner (UTP)
 					</button>
 				</a>
 				<div id="divForm4" style="display:none" onclick="open_details('utp.cfm')">
-					<h4 class="mission-area-title" style="color:black">Urban Tactical Planner</h4>
-					<p class="mission-area-text" style="text-align: justify;margin-left: 10px;">
+					<h4 class="mission-area-title cls_text_search" style="color:black">Urban Tactical Planner</h4>
+					<p class="mission-area-text cls_text_search" style="text-align: justify;margin-left: 10px;">
 						The UTP assists in the planning and visualization of military operations in select world urban
 						areas. UTP is foundational and authoritative data which one can value add to and it provides the
 						warfighter to assist in the planning and visualization of military operations in world's urban
@@ -496,14 +501,14 @@
 				<a class="fancybox-effects-d" href="#divForm5" title="">
 					<img src="images/gallery/aio.jpg?ver=1" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
-					<h4>AIO</h4>
-					<button type="button" class="send_message" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
+					<h4 class="cls_text_search">AIO</h4>
+					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
 						AGC Imagery Office (AIO)
 					</button>
 				</a>
 				<div id="divForm5" style="display:none" onclick="open_details('aio.cfm')">
-					<h4 class="mission-area-title" style="color:black">AGC Imagery Office</h4>
-					<p class="mission-area-text" style="text-align: justify;margin-left: 10px;">
+					<h4 class="mission-area-title cls_text_search" style="color:black">AGC Imagery Office</h4>
+					<p class="mission-area-text cls_text_search" style="text-align: justify;margin-left: 10px;">
 						The AGC Imagery Office (AIO) functions as the U.S. Army's commercial imagery acquisition agent
 						and monitor. This action is designed to prevent Army agencies and organizations from duplicating
 						imagery acquisition/data purchases. The AIO is also designated as the repository of selected
@@ -520,14 +525,14 @@
 				<a class="fancybox-effects-d" href="#divForm6" title="">
 					<img src="images/gallery/CMB.jpg?ver=1" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
-					<h4>CMB</h4>
-					<button type="button" class="send_message" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
+					<h4 class="cls_text_search">CMB</h4>
+					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
 						Common Map Background (CMB)
 					</button>
 				</a>
 				<div id="divForm6" style="display:none" onclick="open_details('cmb.cfm')">
-					<h4 class="mission-area-title" style="color:black">Common Map Background</h4>
-					<p class="mission-area-text" style="text-align: justify;margin-left: 10px;">
+					<h4 class="mission-area-title cls_text_search" style="color:black">Common Map Background</h4>
+					<p class="mission-area-text cls_text_search" style="text-align: justify;margin-left: 10px;">
 						CMB provides AGC products and Standard and Shareable Geospatial Foundation (SSGF) digital map,
 						elevation, and image data to the Warfighter. CMB utilizes a comprehensive digital data library
 						and custom ArcGIS toolset designed to dramatically reduce the time and expense required to
@@ -544,14 +549,14 @@
 				<a class="fancybox-effects-d" href="#divForm7" title="">
 					<img src="images/gallery/AIP.JPG?ver=1" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
-					<h4>AIP</h4>
-					<button type="button" class="send_message" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
+					<h4 class="cls_text_search">AIP</h4>
+					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
 						Advanced Imagery Platform (AIP)<span style="color:red"> - (DREN)</span>
 					</button>
 				</a>
 				<div id="divForm7" style="display:none">
-					<h4 class="mission-area-title" style="color:black">Coming Soon</h4>
-					<p class="mission-area-text" style="text-align: justify;margin-left: 10px;">
+					<h4 class="mission-area-title cls_text_search" style="color:black">Coming Soon</h4>
+					<p class="mission-area-text cls_text_search" style="text-align: justify;margin-left: 10px;">
 						Coming Soon
 					</p>
 				</div>
@@ -563,14 +568,14 @@
 				<a class="fancybox-effects-d" href="#divForm8" title="">
 					<img src="images/gallery/DMR.jpg?ver=1" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
-					<h4>GEOPDF</h4>
-					<button type="button" class="send_message" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
+					<h4 class="cls_text_search">GEOPDF</h4>
+					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
 						Digital Map Repository - GeoPDF (DMR)
 					</button>
 				</a>
 				<div id="divForm8" style="display:none" onclick="open_details('https://cac.agc.army.mil/Products/MapArchive/index.cfm')">
-					<h4 class="mission-area-title" style="color:black">Geospatial PDF</h4>
-					<p class="mission-area-text" style="text-align: justify;margin-left: 10px;">
+					<h4 class="mission-area-title cls_text_search" style="color:black">Geospatial PDF</h4>
+					<p class="mission-area-text cls_text_search" style="text-align: justify;margin-left: 10px;">
 						The Army AGC Geospatial PDF program is tasked with producing Geospatial PDF versions of all AGC
 						products and has created the Country Geospatial PDF DVD (a disk or set of disks containing all
 						available NGA standard maps for a given country).
@@ -584,14 +589,14 @@
 				<a class="fancybox-effects-d" href="#divForm9" title="">
 					<img src="images/gallery/3dgeo.jpg?ver=1" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
-					<h4>3DGEO</h4>
-					<button type="button" class="send_message" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
+					<h4 class="cls_text_search">3DGEO</h4>
+					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
 						3-D Geovisualization (3DGEOV) - (Pending)
 					</button>
 				</a>
 				<div id="divForm9" style="display:none" onclick="open_details('3dgeov.cfm')">
-					<h4 class="mission-area-title" style="color:black">3D Geo-Visualization</h4>
-					<p class="mission-area-text" style="text-align: justify;margin-left: 10px;">
+					<h4 class="mission-area-title cls_text_search" style="color:black">3D Geo-Visualization</h4>
+					<p class="mission-area-text cls_text_search" style="text-align: justify;margin-left: 10px;">
 						3D GeoVisualization combines tools, techniques, and geospatial data to provide an interactive
 						environment for the interpretation, analysis, visualization and communication of spatial
 						information. AGC list of provided services are: Software (Skyline Software), Training (Software
@@ -608,14 +613,14 @@
 				<a class="fancybox-effects-d" href="#divForm11" title="">
 					<img src="images/gallery/3DPRM.JPG" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
-					<h4>3DPRM</h4>
-					<button type="button" class="send_message" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
+					<h4 class="cls_text_search">3DPRM</h4>
+					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
 						3-D Plastic Relief Maps (3DPRM) - (Pending)
 					</button>
 				</a>
 				<div id="divForm11" style="display:none" onclick="open_details('3dprm.cfm')">
-					<h4 class="mission-area-title" style="color:black">3D Plastic Relief Map</h4>
-					<p class="mission-area-text" style="text-align: justify;margin-left: 10px;">
+					<h4 class="mission-area-title cls_text_search" style="color:black">3D Plastic Relief Map</h4>
+					<p class="mission-area-text cls_text_search" style="text-align: justify;margin-left: 10px;">
 						AGC can provide 3D Raised Relief Maps using customer supplied 2D maps or AGC created maps
 						produced to customer specifications. The 2D map is then matched with a digital elevation model
 						(DEM) which is then scaled vertically to enhance terrain features on the finished 3D raised
@@ -634,20 +639,20 @@
 				<a class="fancybox-effects-d" href="#divForm12" title="">
 					<img src="images/gallery/portal.jpg" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
-					<h4>AGE</h4>
-					<button type="button" class="send_message" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
+					<h4 class="cls_text_search">AGE</h4>
+					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
 						Army Geospatial Enterprise Portal (AGE)<span style="color:red"> - (DREN)</span>
 					</button>
 				</a>
 				<div id="divForm12" style="display:none">
-					<h4 class="mission-area-title" style="color:black">Army Geospatial Enterprise Portal </h4>
-					<p class="mission-area-text" style="text-align: justify;margin-left: 10px;">
+					<h4 class="mission-area-title cls_text_search" style="color:black">Army Geospatial Enterprise Portal </h4>
+					<p class="mission-area-text cls_text_search" style="text-align: justify;margin-left: 10px;">
 						AGC ArcGIS Online Portal instance that allows Army and DoD customers to share and collaborate
 						geospatial data and products in an enterprise enabled environment. AGE Web Portal architecture
 						supports the creation of web maps, applications, and services from hosted content. Users can
 						access the site (NIPR and SIPR) with an internet browser or ArcGIS software.
 					</p>
-					<p class="mission-area-text" style="text-align: justify;margin-left: 10px;">
+					<p class="mission-area-text cls_text_search" style="text-align: justify;margin-left: 10px;">
 						Due to USACE Enterprise IT Policies geospatial services/applications/hosted data in Army Geospatial 
 						Enterprise (AGE) Portal under the domain of the Portal Defense Research and Engineering Network (DREN) 
 						are not currently accessible from this page. We are working to align the policy to serve previously 
@@ -663,14 +668,14 @@
 				<a class="fancybox-effects-d" href="#divForm13" title="">
 					<img src="images/gallery/AWR2.JPG" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
-					<h4 style="text-transform:none;">AWR2</h4>
-					<button type="button" class="send_message" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
+					<h4 style="text-transform:none;" class="cls_text_search">AWR2</h4>
+					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
 						AGC Water Resources Repository (AWR2)
 					</button>
 				</a>
 				<div id="divForm13" style="display:none;">
-					<h4 class="mission-area-title" style="color:black">Comming Soon </h4>
-					<p class="mission-area-text" style="text-align: justify;margin-left: 10px;">
+					<h4 class="mission-area-title cls_text_search" style="color:black">Comming Soon </h4>
+					<p class="mission-area-text cls_text_search" style="text-align: justify;margin-left: 10px;">
 						Comming Soon 
 					</p>
 				</div>
@@ -682,21 +687,21 @@
 				<a class="fancybox-effects-d" href="#divForm14" title="">
 					<img src="images/gallery/tdm.jpg" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
-					<h4>TDM</h4>
-					<button type="button" class="send_message" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
+					<h4 class="cls_text_search">TDM</h4>
+					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
 						Topographic Data Management (TDM)<span style="color:red"> - (DREN)</span>
 					</button>
 				</a>
 				<div id="divForm14" style="display:none">
-					<h4 class="mission-area-title" style="color:black">Topographic Data Management</h4>
-					<p class="mission-area-text" style="text-align: justify;margin-left: 10px;">
+					<h4 class="mission-area-title cls_text_search" style="color:black">Topographic Data Management</h4>
+					<p class="mission-area-text cls_text_search" style="text-align: justify;margin-left: 10px;">
 						AGC AGE web application that serves as a data repository and production application. It provides
 						Army and DoD users access to versioned mission and product databases supporting extraction,
 						analysis, and editing of Army feature data. <a href="https://agewebportal.erdc.mil/ndvdp"
 							target="_blank">https://agewebportal.erdc.mil/ndvdp</a> (Will require request to join
 						specific COCOM Geodatabase).
 					</p>
-					<p class="mission-area-text" style="text-align: justify;margin-left: 10px;">
+					<p class="mission-area-text cls_text_search" style="text-align: justify;margin-left: 10px;">
 						Due to USACE Enterprise IT Policies geospatial services/applications/hosted data in Army Geospatial 
 						Enterprise (AGE) Portal under the domain of the Portal Defense Research and Engineering Network (DREN) 
 						are not currently accessible from this page. We are working to align the policy to serve previously 
@@ -712,14 +717,14 @@
 				<a class="fancybox-effects-d" href="#divForm13" title="">
 					<img src="images/gallery/MPIC.jpg" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
-					<h4 style="text-transform:none;">GST</h4>
-					<button type="button" class="send_message" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
+					<h4 style="text-transform:none;" class="cls_text_search">GST</h4>
+					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
 						Geospatial Engineering Support Team (GST)<span style="color:red"> - DREN</span>
 					</button>
 				</a>
 				<div id="divForm13" style="display:none;">
-					<h4 class="mission-area-title" style="color:black">Coming Soon</h4>
-					<p class="mission-area-text" style="text-align: justify;margin-left: 10px;">
+					<h4 class="mission-area-title cls_text_search" style="color:black">Coming Soon</h4>
+					<p class="mission-area-text cls_text_search" style="text-align: justify;margin-left: 10px;">
 						Coming Soon
 					</p>
 				</div>
@@ -731,14 +736,14 @@
 				<a class="fancybox-effects-d" href="#divForm16" title="">
 					<img src="images/gallery/mst.jpg" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
-					<h4>MST</h4>
-					<button type="button" class="send_message" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
+					<h4 class="cls_text_search">MST</h4>
+					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
 						Military Support Team (MST)
 					</button>
 				</a>
 				<div id="divForm16" style="display:none" onclick="open_details('mst.cfm')">
-					<h4 class="mission-area-title" style="color:black">Military Support Team</h4>
-					<p class="mission-area-text" style="text-align: justify;margin-left: 10px;">
+					<h4 class="mission-area-title cls_text_search" style="color:black">Military Support Team</h4>
+					<p class="mission-area-text cls_text_search" style="text-align: justify;margin-left: 10px;">
 						A service of military expertise to provide specialized products and services using military
 						regulations, policies, and standards. Delivers real world and training products that provide
 						geographic understanding for Warfighter and Civil Support leaders. Translates requests for
@@ -783,8 +788,8 @@
 			<ol class="slides" style="background: #323232;">
 				<li class="current">
 					<div class="description desc_custom" style="background: inherit;">
-						<h4>Reach Back Support</h4>
-						<p>Request for Information (RFI) reach back support for units in the field. Relies heavily on
+						<h4 class="cls_text_search">Reach Back Support</h4>
+						<p class="cls_text_search">Request for Information (RFI) reach back support for units in the field. Relies heavily on
 							in-house expertise of Civilian Analysts, 125D, 
 							and 12Y&acute;s. Exercise support to rotational and
 							national level exercises. Mission rehearsal, analytical support, AAR tools. Supports
@@ -794,7 +799,7 @@
 					<div class="description submit_custom" style="background: inherit;">
 						<div id="button-con">
 							<button type="submit" class="send_message">
-								<a href="mailto:dll-wsd-reachback@usace.army.mil" style="color: white" target="_blank">Submit</a>
+								<a href="mailto:dll-wsd-reachback@usace.army.mil" style="color: white" target="_blank" class="cls_text_search">Submit</a>
 							</button>
 						</div>
 					</div>
@@ -815,9 +820,9 @@
 				<div class="four columns">
 					<div class="facts-wrap">
 						<div class="facts-wrap-num">
-							<span class="counter1">#qUserStory.count1#</span>
+							<span class="counter1 cls_text_search">#qUserStory.count1#</span>
 						</div>
-						<h5>
+						<h5 class="cls_text_search">
 							<cfoutput>#qUserStory.label1#</cfoutput>
 						</h5>
 					</div>
@@ -825,9 +830,9 @@
 				<div class="four columns">
 					<div class="facts-wrap">
 						<div class="facts-wrap-num">
-							<span class="counter2">#qUserStory.count2#</span>
+							<span class="counter2 cls_text_search">#qUserStory.count2#</span>
 						</div>
-						<h5>
+						<h5 class="cls_text_search">
 							<cfoutput>#qUserStory.label2#</cfoutput>
 						</h5>
 					</div>
@@ -835,9 +840,9 @@
 				<div class="four columns">
 					<div class="facts-wrap">
 						<div class="facts-wrap-num">
-							<span class="counter3">#qUserStory.count3#</span>
+							<span class="counter3 cls_text_search">#qUserStory.count3#</span>
 						</div>
-						<h5>
+						<h5 class="cls_text_search">
 							<cfoutput>#qUserStory.label3#</cfoutput>
 						</h5>
 					</div>
@@ -845,9 +850,9 @@
 				<div class="four columns">
 					<div class="facts-wrap">
 						<div class="facts-wrap-num">
-							<span class="counter4">#qUserStory.count4#</span>
+							<span class="counter4 cls_text_search">#qUserStory.count4#</span>
 						</div>
-						<h5>
+						<h5 class="cls_text_search">
 							<cfoutput>#qUserStory.label4#</cfoutput>
 						</h5>
 					</div>
@@ -860,29 +865,29 @@
 		<div class="container">
 			<div class="sixteen columns" data-scrollreveal="enter top and move 150px over 1s">
 				<div class="header-text">
-					<div class="header-shadow-text">feedback</div>
-					<h1>feedback</h1>
-					<p>Help us to help you</p>
+					<div class="header-shadow-text cls_text_search">feedback</div>
+					<h1 class="cls_text_search">feedback</h1>
+					<p class="cls_text_search">Help us to help you</p>
 				</div>
 			</div>
 		</div>
 		<div class="container">
 			<!--<form name="ajax-form" id="ajax-form" method="post">-->
 			<div class="four columns">
-				<label for="name">Your Name: *
+				<label for="name" class="cls_text_search">Your Name: *
 					<span class="error" id="err-name">please enter name</span>
 				</label>
 				<input name="name" id="name" type="text" />
 			</div>
 			<div class="four columns">
-				<label for="email">Subject
+				<label for="email" class="cls_text_search">Subject
 					<span class="error" id="err-email">please enter e-mail</span>
 					<span class="error" id="err-emailvld">e-mail is not a valid format</span>
 				</label>
 				<input name="subject" id="subject" type="text" />
 			</div>
 			<div class="five columns">
-				<label for="message">Tell Us Everything:</label>
+				<label for="message" class="cls_text_search">Tell Us Everything:</label>
 				<textarea name="message" id="message"></textarea>
 			</div>
 			<div class="three columns">
@@ -891,9 +896,9 @@
 				</div>
 			</div>
 			<div class="clear"></div>
-			<div class="error text-align-center" id="err-form">There was a problem validating the form please check!
+			<div class="error text-align-center cls_text_search" id="err-form">There was a problem validating the form please check!
 			</div>
-			<div class="error text-align-center" id="err-timedout">The connection to the server timed out!</div>
+			<div class="error text-align-center cls_text_search" id="err-timedout">The connection to the server timed out!</div>
 			<div class="error" id="err-state"></div>
 			<!--</form>-->
 			<div class="clear"></div>
@@ -907,12 +912,12 @@
 			</div>
 			<div class="eight columns" data-scrollreveal="enter right and move 150px over 1s">
 				<div class="contact-wrap">
-					<p><i class="icon-contact1">&#xf041;</i><span>Visit Us:</span> 7701 Telegraph Road, Alexandria, VA
+					<p class="cls_text_search"><i class="icon-contact1">&#xf041;</i><span>Visit Us:</span> 7701 Telegraph Road, Alexandria, VA
 						22315</p>
 				</div>
 			</div>
 			<div class="sixteen columns" data-scrollreveal="enter bottom and move 150px over 1s">
-				<a class="button-map cls_map close-map"><span>Locate Us on Map</span></a>
+				<a class="button-map cls_map close-map cls_text_search"><span>Locate Us on Map</span></a>
 			</div>
 		</div>
 		<div id="google_map">
@@ -923,7 +928,7 @@
 		</div>
 		<div class="container">
 			<div class="sixteen columns" data-scrollreveal="enter bottom and move 150px over 1s">
-				<a class="button-map cls_links close-map"><span>Additional Links</span></a>
+				<a class="button-map cls_links close-map cls_text_search"><span>Additional Links</span></a>
 			</div>
 		</div>
 		<div id="additional_links">
