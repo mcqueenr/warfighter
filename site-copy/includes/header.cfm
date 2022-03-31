@@ -73,6 +73,7 @@
 	<!--SVG Animation Styles-->
 <!--- 	<link rel="stylesheet" href="css/retina.css" /> --->
 	<link rel="stylesheet" href="chosen/chosen.css">
+	<link rel="stylesheet" href="css/hamburger-style.css">
 	<link rel="stylesheet" href="css/search.css" />
 
 
@@ -304,6 +305,15 @@
 	 color:red; 
 }
 
+ul ul li {
+    margin: 5px;
+	font-size:8px !important;
+}
+
+ul ul li a span {
+	display: flex !important;
+}
+
 </style>
 
 </head>
@@ -313,7 +323,7 @@
 	<!-- BEGIN OF site header Menu -->
 	<header class="page-header navbar page-header-alpha scrolled-white menu-left logo-center topmenu-right">
 		<!-- Begin of menu icon toggler -->
-		<button class="navbar-toggler site-menu-icon" <cfif redirectURL NEQ ''>style="top: 56px;"</cfif>>
+		<!---<button class="navbar-toggler site-menu-icon" <cfif redirectURL NEQ ''>style="top: 56px;"</cfif>>
 			<!-- Available class : menu-icon-dot / menu-icon-thick /menu-icon-random -->
 			<span class="menu-icon menu-icon-random">
 				<span class="bars">
@@ -322,15 +332,597 @@
 					<span class="bar3"></span>
 				</span>
 			</span>
-		</button>
+		</button>--->
 		<!-- End of menu icon toggler -->
+
+		<div class="hamburger">
+			<div class="hamburger--container">
+				<div class="hamburger--bars">
+		
+				</div>
+			</div>
+		</div>
+
+		<div class="fsmenu">
+			<div class="fsmenu--container">
+				<div class="fsmenu--text-block">
+					<div class="fsmenu--text-container">
+						<ul class="fsmenu--list" style="margin-top: -50px;">
+							<li class="fsmenu--list-element" id="li_home">
+								<a href="<cfoutput>#redirectURL#</cfoutput>">
+									<span>Home</span>
+								</a>
+								<div class="fsmenu--scrolling-text">
+									<span>Home</span>
+									<span>Home</span>
+									<span>Home</span>
+									<span>Home</span>
+									<span>Home</span>
+									<span>Home</span>
+									<span>Home</span>
+									<span>Home</span>
+									<span>Home</span>
+									<span>Home</span>
+									<span>Home</span>
+									<span>Home</span>
+									<span>Home</span>
+									<span>Home</span>
+								</div>
+								<div class="fsmenu--link-img">
+									<div class="fsmenu--img-container">
+										<img src="images/home.jpg">
+									</div>	
+								</div>
+							</li>
+							<li class="fsmenu--list-element" id="li_announcement">
+								<a href="#">
+									<span>Announcements</span>
+								</a>
+								<div class="fsmenu--scrolling-text">
+									<span>Announcements</span>
+									<span>Announcements</span>
+									<span>Announcements</span>
+									<span>Announcements</span>
+									<span>Announcements</span>
+									<span>Announcements</span>
+									<span>Announcements</span>
+									<span>Announcements</span>
+									<span>Announcements</span>
+									<span>Announcements</span>
+									<span>Announcements</span>
+
+								</div>
+								<div class="fsmenu--link-img">
+									<div class="fsmenu--img-container">
+										<img src="images/age1.jpg">
+									</div>
+								</div>
+							</li>
+							<li class="fsmenu--list-element" id="li_cm">
+								<a href="#">
+									<span>Catalog Map</span>
+								</a>
+								<div class="fsmenu--scrolling-text">
+									<span>Catalog Map</span>
+									<span>Catalog Map</span>
+									<span>Catalog Map</span>
+									<span>Catalog Map</span>
+									<span>Catalog Map</span>
+									<span>Catalog Map</span>
+									<span>Catalog Map</span>
+									<span>Catalog Map</span>
+									<span>Catalog Map</span>
+									<span>Catalog Map</span>
+									<span>Catalog Map</span>
+									<span>Catalog Map</span>
+								</div>
+								<div class="fsmenu--link-img">
+									<div class="fsmenu--img-container">
+										<img src="images/pack.png">
+									</div>
+								</div>
+							</li>
+							<li class="fsmenu--list-element" id="li_data">
+								<a href="javascript:void(0);" onclick="ShowsubMenus('li_data')">
+									<span>Data <i class="fa-angle-down fas" style="font-size: 20px;" id="fa_arrow"></i></span>
+								</a>
+								<ul class="fsmenu--list" style="display:none">
+									<li>
+										<a href="#">
+											<span>3-D Geovisualization (3DGEOV) (UNDER DEVELOPMENT)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>AGC Water Resources Repository (AWR2) (UNDER DEVELOPMENT)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>BuckEye Enhance Team (BET)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>Common Map Background (CMB)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>Engineer Route Studies (ERS)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>Enterprise Geospatial Data Management Service (EGDM)</span>
+										</a>
+									</li>
+									<li>
+										<a href="https://agewebportal.erdc.dren.mil/AGCTDM/">
+											<span>Topographic Data Management (TDM) Web Application - <p class="color:red">(DREN)</p></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>Urban Tactical Planner (UTP)</span>
+										</a>
+									</li>
+								</ul>
+								<div class="fsmenu--scrolling-text">
+									<span>Data</span>
+									<span>Data</span>
+									<span>Data</span>
+									<span>Data</span>
+									<span>Data</span>
+									<span>Data</span>
+									<span>Data</span>
+									<span>Data</span>
+									<span>Data</span>
+									<span>Data</span>
+									<span>Data</span>
+									<span>Data</span>
+									<span>Data</span>
+									<span>Data</span>
+									<span>Data</span>
+									<span>Data</span>
+									<span>Data</span>
+									<span>Data</span>
+									<span>Data</span>
+								</div>
+								<div class="fsmenu--link-img">
+									<div class="fsmenu--img-container">
+										<img src="images/data_generation_br.jpg">
+									</div>
+								</div>
+							</li>
+							<li class="fsmenu--list-element" id="li_dren">
+								<a href="javascript:void(0);" onclick="ShowsubMenus('li_dren')">
+									<span>Defence Research & Engineering Network (DREN) <i class="fa-angle-down fas" style="font-size: 20px;" id="fa_arrow"></i></span>
+								</a>
+								<ul class="fsmenu--list" style="display:none">
+									<li>
+										<a href="https://agc-aip.erdc.dren.mil/">
+											<span>Advance Imagery Platform (AIP)</span>
+										</a>
+									</li>
+									<li>
+										<a href="https://agewebportal.erdc.dren.mil/portal/home">
+											<span>Army Geospatial Enterprise Portal (AGE-P)</span>
+										</a>
+									</li>
+									<li>
+										<a href="https://agewebportal.erdc.dren.mil/portal/apps/sites/#/geospatial-engineering-support-team">
+											<span>Geospatial Engineering Support Team (GST)</span>
+										</a>
+									</li>
+									<li>
+										<a href="https://agewebportal.erdc.dren.mil/AGCTDM/">
+											<span>Topographic Data Management (TDM)</span>
+										</a>
+									</li>
+								</ul>
+								<div class="fsmenu--scrolling-text">
+									<span>Defence Research & Engineering Network (DREN)</span>
+									<span>Defence Research & Engineering Network (DREN)</span>
+									<span>Defence Research & Engineering Network (DREN)</span>
+									<span>Defence Research & Engineering Network (DREN)</span>
+									<span>Defence Research & Engineering Network (DREN)</span>
+									<span>Defence Research & Engineering Network (DREN)</span>
+									<span>Defence Research & Engineering Network (DREN)</span>
+									<span>Defence Research & Engineering Network (DREN)</span>
+
+								</div>
+								<div class="fsmenu--link-img">
+									<div class="fsmenu--img-container">
+										<img src="images/millitary_support.jpg">
+									</div>
+								</div>
+							</li>
+							<li class="fsmenu--list-element" id="li_imagery">
+								<a href="javascript:void(0);" onclick="ShowsubMenus('li_imagery')">
+									<span>Imagery <i class="fa-angle-down fas" style="font-size: 20px;" id="fa_arrow"></i></span>
+								</a>
+								<ul class="fsmenu--list" style="display:none">
+									<li>
+										<a href="#">
+											<span>Army Geospatial Center Imagery Office (AIO)</span>
+										</a>
+									</li>
+									<li>
+										<a href="https://agc-aip.erdc.dren.mil/">
+											<span>Advance Imagery Platform (AIP) <p class="color:red">(DREN)</p></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>Geospatial Repository and Data Management System (GRID)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>High Resolution 3D (HR3D)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>High Resolution 3D-Enhanced (HR3D-E)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>Light Detection and Ranging (LIDAR)</span>
+										</a>
+									</li>
+								</ul>
+								<div class="fsmenu--scrolling-text">
+									<span>Imagery</span>
+									<span>Imagery</span>
+									<span>Imagery</span>
+									<span>Imagery</span>
+									<span>Imagery</span>
+									<span>Imagery</span>
+									<span>Imagery</span>
+									<span>Imagery</span>
+									<span>Imagery</span>
+									<span>Imagery</span>
+									<span>Imagery</span>
+									<span>Imagery</span>
+									<span>Imagery</span>
+									<span>Imagery</span>
+									<span>Imagery</span>
+								</div>
+								<div class="fsmenu--link-img">
+									<div class="fsmenu--img-container">
+										<img src="images/img2_2.jpg">
+									</div>
+								</div>
+							</li>
+							<li class="fsmenu--list-element" id="li_products">
+								<a href="javascript:void(0);" onclick="ShowsubMenus('li_products')">
+									<span>Products <i class="fa-angle-down fas" style="font-size: 20px;" id="fa_arrow"></i></span>
+								</a>
+								<ul class="fsmenu--list" style="display:none">
+									<li>
+										<a href="#">
+											<span>3-D Plastic Relief Maps (3DPRM) (UNDER DEVELOPMENT)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>BuckEye Enhance Team (BET) </span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>Engineer Route Studies (ERS)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>Digital Map Repository (DMR) (GEOPDF)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>Historic Photographic Analysis (HPA) </span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>Urban Tactical Planner (UTP)</span>
+										</a>
+									</li>
+								</ul>
+								<div class="fsmenu--scrolling-text">
+									<span>Products</span>
+									<span>Products</span>
+									<span>Products</span>
+									<span>Products</span>
+									<span>Products</span>
+									<span>Products</span>
+									<span>Products</span>
+									<span>Products</span>
+									<span>Products</span>
+									<span>Products</span>
+									<span>Products</span>
+									<span>Products</span>
+									<span>Products</span>
+									<span>Products</span>
+									<span>Products</span>
+								</div>
+								<div class="fsmenu--link-img">
+									<div class="fsmenu--img-container">
+										<img src="images/contact.jpg">
+									</div>
+								</div>
+							</li>
+							<li class="fsmenu--list-element" id="li_servcies">
+								<a href="javascript:void(0);" onclick="ShowsubMenus('li_servcies')">
+									<span>Services <i class="fa-angle-down fas" style="font-size: 20px;" id="fa_arrow"></i></span>
+								</a>
+								<ul class="fsmenu--list" style="display:none">
+									<li>
+										<a href="#">
+											<span>3-D GeoVisualization (3DGEOV) (UNDER DEVELOPMENT)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>3-D Plastic Relief Maps (3DPRM) (UNDER DEVELOPMENT)</span>
+										</a>
+									</li>
+									<li>
+										<a href="https://agewebportal.erdc.dren.mil/portal/home">
+											<span>Army Geospatial Enterprise Portal (AGE)<p style="color:red">(DREN)</p></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>Common Map Background (CMB)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>Common Map Background Lite (CMB-L)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>Digital Map Repository (DMR) - GEOPDF</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>Enterprise Geospatial Data Management Service (EGDM)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>FLYTHRUS (UNDER DEVELOPMENT)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>GEOGLOBE</span>
+										</a>
+									</li>
+									<li>
+										<a href="https://agewebportal.erdc.dren.mil/AGCTDM/">
+											<span>Topographic Data Management (TDM) Web Application <p style="color:red">(DREN)</p></span>
+										</a>
+									</li>
+								</ul>
+								<div class="fsmenu--scrolling-text">
+									<span>Services</span>
+									<span>Services</span>
+									<span>Services</span>
+									<span>Services</span>
+									<span>Services</span>
+									<span>Services</span>
+									<span>Services</span>
+									<span>Services</span>
+									<span>Services</span>
+									<span>Services</span>
+									<span>Services</span>
+									<span>Services</span>
+									<span>Services</span>
+									<span>Services</span>
+									<span>Services</span>
+									<span>Services</span>
+								</div>
+								<div class="fsmenu--link-img">
+									<div class="fsmenu--img-container">
+										<img src="images/mission_statement.jpg">
+									</div>
+								</div>
+							</li>
+							<li class="fsmenu--list-element" id="li_support">
+								<a href="javascript:void(0);" onclick="ShowsubMenus('li_support')">
+									<span>Support <i class="fa-angle-down fas" style="font-size: 20px;" id="fa_arrow"></i></span>
+								</a>
+								<ul class="fsmenu--list" style="display:none">
+									<li>
+										<a href="#">
+											<span>3-D Geovisualization (3DGEOV) (UNDER DEVELOPMENT)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>3-D Plastic Relief Maps (3DPRM) (UNDER DEVELOPMENT)</span>
+										</a>
+									</li>
+									<li>
+										<a href="https://agewebportal.erdc.dren.mil/portal/apps/sites/#/geospatial-engineering-support-team">
+											<span>Geospatial-Engineering Support Team <p style="color:red">(DREN)</p></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>Geospatial Technical Support (GTS)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>Historic Photographic Analysis (HPA)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>Military Support Team (MST)</span>
+										</a>
+									</li>
+								</ul>
+								<div class="fsmenu--scrolling-text">
+									<span>Support</span>
+									<span>Support</span>
+									<span>Support</span>
+									<span>Support</span>
+									<span>Support</span>
+									<span>Support</span>
+									<span>Support</span>
+									<span>Support</span>
+									<span>Support</span>
+									<span>Support</span>
+									<span>Support</span>
+									<span>Support</span>
+									<span>Support</span>
+									<span>Support</span>
+									<span>Support</span>
+								</div>
+								<div class="fsmenu--link-img">
+									<div class="fsmenu--img-container">
+										<img src="images/Training_Support.jpg">
+									</div>
+								</div>
+							</li>
+							<li class="fsmenu--list-element" id="li_additional_links">
+								<a href="javascript:void(0);" onclick="ShowsubMenus('li_additional_links')">
+									<span>Additional Links <i class="fa-angle-down fas" style="font-size: 20px;" id="fa_arrow"></i></span>
+								</a>
+								<ul class="fsmenu--list" style="display:none">
+									<li>
+										<a href="#">
+											<span>Central Intelligence Agency (CIA)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>Defense Logistics Agency (DLA)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>DOD SAFE</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>GEOnet Names Sever (GNS)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>GEOINT Search and Retrieval (GSR)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>Joint Engineer Common Operating Picture (JECOP)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>Library of Congress (LOC)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>MAP of the World (NGA)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>National Archives and Records Administration (NARA)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>National Geospatial-Intelligence Agency (NGA)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>National Technical Information Service (NTIS)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>NGS Open Mapping Enclave (NOME)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>OE Data Integration Network (ODIN)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>Reachback Engineer Data Integration (REDi)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>USACE Common Operating Picture (uCOP)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>US Geological Survey (USGS)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span>USGS Earth Resources Observation and Science (EROS)</span>
+										</a>
+									</li>
+								</ul>
+								<div class="fsmenu--scrolling-text">
+									<span>Additional Links</span>
+									<span>Additional Links</span>
+									<span>Additional Links</span>
+									<span>Additional Links</span>
+									<span>Additional Links</span>
+									<span>Additional Links</span>
+									<span>Additional Links</span>
+									<span>Additional Links</span>
+									<span>Additional Links</span>
+									<span>Additional Links</span>
+									<span>Additional Links</span>
+									<span>Additional Links</span>
+									<span>Additional Links</span>
+								</div>
+								<div class="fsmenu--link-img">
+									<div class="fsmenu--img-container">
+										<img src="images/collection_br.jpg">
+									</div>
+								</div>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
 
 		<!-- begin of menu wrapper -->
 		<div class="all-menu-wrapper" id="navbarMenu">
 			
 			<!-- Begin of hamburger mainmenu menu -->
 			<cfoutput>
-			<nav class="navbar-mainmenu">
+			<!---<nav class="navbar-mainmenu">
 				<ul class="navbar-nav">
 					<li class="nav-item">
 						<a class="nav-link" href="#redirectURL###work">Home</a>
@@ -387,7 +979,7 @@
 						<a class="nav-link" href="javascript:void();" onclick="open_Modal()"></a>
 					</li>
 				</ul>
-			</nav>
+			</nav>--->
 			</cfoutput>
 			<!-- End of hamburger mainmenu menu -->
 
