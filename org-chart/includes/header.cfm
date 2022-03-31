@@ -13,7 +13,7 @@
 		<link href="../assets/css/style.css" rel="stylesheet" type="text/css">
 		<link href="../assets/css/all.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="css/module_27325013768_Our_People_Filter_Tab_Nav_Vue.min.css">
-		<script src="../../assets/js/jquery.js"></script>
+		<script src="../assets/js/jquery.js"></script>
 		<script src="../assets/js/popper.min.js"></script>
 		<script src="../assets/js/bootstrap.js"></script>
 		<meta name="author" content="USACE Geospatial Center">
