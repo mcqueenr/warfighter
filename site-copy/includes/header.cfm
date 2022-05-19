@@ -1,7 +1,3 @@
-<cfquery datasource="warfightersupport" name="qUserStory">
-	SELECT top 1 * FROM user_story                        
-</cfquery>
-
 <cfset fileName = listlast(cgi.script_name,"/") />
 <cfset redirectURL = '' />
 <cfif fileName NEQ 'index.cfm'>
